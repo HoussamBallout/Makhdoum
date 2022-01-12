@@ -10,12 +10,16 @@
           :chapterSecondParagraph="sectionOneHero.chapterSecondParagraph"
         />
 
+<div class="iframe-container">
+
           <iframe
           src="/Images/c1/sectionOne/video.html"
           width="1900"
-          height="1700"
-
+          height="4000"
+align="center"
         ></iframe>
+
+        </div>
 
 
    <ChapterImageHero
@@ -69,7 +73,9 @@
 
         <SectionText class="mt-10">
           <nuxt-content :document="s11" />
-        </SectionText>
+        </SectionText><br />
+                <img src="/Images/c1/sectionOne/LinaMonzer_art1.jpg" width="950" />
+
         <SectionText class="mt-5">
           <nuxt-content :document="s12" />
         </SectionText>
@@ -79,9 +85,13 @@
         <SectionText class="mt-5">
           <nuxt-content :document="s14" />
         </SectionText>
+<br />
+                        <img src="/Images/c1/sectionOne/LinaMonzer_art2.jpg" width="950" />
+
         <SectionText class="mt-5 mb-5">
           <nuxt-content :document="s15" />
         </SectionText>
+
 
         <SectionText class="mt-5">
           <nuxt-content :document="s16" />
@@ -89,6 +99,8 @@
         <SectionText class="mt-5">
           <nuxt-content :document="s17" />
         </SectionText>
+
+
         <SectionText class="mt-5">
           <nuxt-content :document="s18" />
         </SectionText>
@@ -104,6 +116,17 @@
           :imageSource="sectionTwoHero.imageSource"
         />
 
+
+      <IntroSection
+          :roleOne="s21.roleOne"
+          :roleOneName="s21.roleOneName"
+          :roleTwo="s21.roleTwo"
+          :roleTwoName="s21.roleTwoName"
+          :roleThree="s21.roleThree"
+          :roleThreeName="s21.roleThreeName"
+        >
+     
+        </IntroSection>
 
 
 
@@ -139,7 +162,7 @@
           <iframe
           src="/Images/c1/sectionFour/passages.html"
           width="1900"
-          height="2000"
+          height="2200"
 
         ></iframe>
 
@@ -153,16 +176,33 @@
           :imageSource="sectionThreeHero.imageSource"
         />
 
+      <IntroSection
+          :roleOne="s23.roleOne"
+          :roleOneName="s23.roleOneName"
+          :roleTwo="s23.roleTwo"
+          :roleTwoName="s23.roleTwoName"
+          :roleThree="s23.roleThree"
+          :roleThreeName="s23.roleThreeName"
+        >
+     
+        </IntroSection>
+
+
+
         <SectionText class="mt-5 mb-16">
           <nuxt-content :document="s23" />
         </SectionText>
+        <img src="/Images/c1/sectionThree/hanger_.jpg" width="950"  />
 
-        <img src="/Images/c1/sectionThree/ashtray_.jpg" />
 
         <SectionText class="mt-5 mb-16">
           <nuxt-content :document="s24" />
         </SectionText>
-        <img src="/Images/c1/sectionThree/hanger_.jpg" />
+        <img src="/Images/c1/sectionThree/ashtray_.jpg" width="950"  />
+
+     <SectionText class="mt-5 mb-16">
+          <nuxt-content :document="s241" />
+        </SectionText>
 
 
         <sectionImageHero
@@ -175,13 +215,31 @@
           :imageSource="sectionFourHero.imageSource"
         />
 
+
+
+      <IntroSection
+          :roleOne="s25.roleOne"
+          :roleOneName="s25.roleOneName"
+          :roleTwo="s25.roleTwo"
+          :roleTwoName="s25.roleTwoName"
+          :roleThree="s25.roleThree"
+          :roleThreeName="s25.roleThreeName"
+        >
+     
+        </IntroSection>
+
+
+
         <SectionText class="mt-5 mb-16">
           <nuxt-content :document="s25" />
         </SectionText>
+                <img src="/Images/c1/sectionOne/maya-1.jpeg" class="w-full h-auto mt-3" />
 
         <SectionText class="mt-5 mb-16">
           <nuxt-content :document="s26" />
         </SectionText>
+
+                <img src="/Images/c1/sectionOne/maya-2.jpeg" class="w-full h-auto mt-3" />
 
         <sectionImageHero
           class="w-full mt-12"
@@ -193,19 +251,44 @@
           :imageSource="sectionFiveHero.imageSource"
         />
 
+           <IntroSection
+          :roleOne="s27.roleOne"
+          :roleOneName="s27.roleOneName"
+          :roleTwo="s27.roleTwo"
+          :roleTwoName="s27.roleTwoName"
+          :roleThree="s27.roleThree"
+          :roleThreeName="s27.roleThreeName"
+        >
+     
+        </IntroSection>
+
         <SectionText class="mt-5 mb-16">
           <nuxt-content :document="s27" />
         </SectionText>
-
+<div align="center">
                 <img src="/Images/c1/sectionFive/YaraNakhle1_.jpg" />
-        <img src="/Images/c1/sectionFive/YaraNakhle2_.jpg" />
-        <img src="/Images/c1/sectionFive/YaraNakhle3_.jpg" />
-
+</div>
 
   
 
         <SectionText class="mt-5 mb-16">
           <nuxt-content :document="s28" />
+        </SectionText>
+      </div> 
+      <div align="center">
+
+        <img src="/Images/c1/sectionFive/YaraNakhle2_.jpg" />
+</div>
+            <SectionText class="mt-5 mb-16">
+          <nuxt-content :document="s29" />
+        </SectionText>
+      </div>
+      <div align="center">
+
+        <img src="/Images/c1/sectionFive/YaraNakhle3_.jpg" />
+</div>
+            <SectionText class="mt-5 mb-16">
+          <nuxt-content :document="s30" />
         </SectionText>
       </div>
 
@@ -382,6 +465,11 @@ export default {
       `${app.i18n.locale}/chapterThree/sectionThree/002`
     ).fetch()
 
+
+    const s241 = await $content(
+      `${app.i18n.locale}/chapterThree/sectionThree/003`
+    ).fetch()
+
     const s25 = await $content(
       `${app.i18n.locale}/chapterThree/sectionFour/001`
     ).fetch()
@@ -396,6 +484,14 @@ export default {
 
     const s28 = await $content(
       `${app.i18n.locale}/chapterThree/sectionFive/002`
+    ).fetch()
+
+        const s29 = await $content(
+      `${app.i18n.locale}/chapterThree/sectionFive/003`
+    ).fetch()
+
+        const s30 = await $content(
+      `${app.i18n.locale}/chapterThree/sectionFive/004`
     ).fetch()
 
     return {
@@ -418,10 +514,13 @@ export default {
       s22,
       s23,
       s24,
+      s241,
       s25,
       s26,
       s27,
       s28,
+      s29,
+      s30
     }
   },
 
@@ -578,4 +677,12 @@ span.close {
 
   opacity: 0;
 }
+</style>
+
+
+<style>
+  .iframe-container {
+		text-align:center;
+  		width:100%;
+  }
 </style>

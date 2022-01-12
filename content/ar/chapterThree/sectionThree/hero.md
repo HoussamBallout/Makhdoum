@@ -2,7 +2,7 @@
 chapterNumber: الفصل الثالث
 chapterTitle: العائلة
 sectionNumber: الجزء الثالث
-sectionTitle: مونولوغ الأقدار
+sectionTitle: مونولج الأقدار
 divId: family3
 imageSource: /chapterHeros/c3/S1_Hero.jpg
 chapterFirstParagraph: بقدر ما يفضل النظام الاجتماعي بأكمله إبقاء العاملات المنزليات غير مرئيات، فإن وجودهن في البلد وداخل المنزل لا يرجع حين يُنظر إلى المرأة الأخرى بنظرة دونية لا تنبع فقط من العوامل الطبقية بل أيضاً من جملة من العوامل العرقية؟

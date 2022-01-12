@@ -5,18 +5,7 @@
         ? ' ltr flex-row-reverse '
         : ' rtl flex-row-reverse'
     "
-    class="
-      z-50
-      flex flex-row
-      items-center
-      justify-between
-      pt-1
-      pb-1
-      pl-4
-      pr-4
-      md:pl-10
-      md:pr-10
-    "
+    class="z-50 flex flex-row items-center justify-between pt-1 pb-1 pl-4 pr-4 md:pl-10 md:pr-10"
   >
     <div class="flex flex-row items-center space-x-2">
       <nuxt-link :to="localePath('/')">
@@ -334,7 +323,7 @@
                   <a
                     href="#family2"
                     class="select-none scrollactive-item rtl nav-link"
-                    >/ مريول أزرق
+                    >/ المريول الأزرق
                   </a>
                 </li>
               </transition>
@@ -343,7 +332,7 @@
                   <a
                     href="#family3"
                     class="select-none scrollactive-item rtl nav-link"
-                    >/ مونولوغ الأقدار
+                    >/ مونولج الأقدار
                   </a>
                 </li>
               </transition>
@@ -363,7 +352,7 @@
                   <a
                     href="#family5"
                     class="select-none scrollactive-item rtl nav-link"
-                    >/ عمر
+                    >/ تأسيس الأسرة
                   </a>
                 </li>
               </transition>

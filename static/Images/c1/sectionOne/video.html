@@ -18,11 +18,12 @@
     top: 0%;
     width: 90%;
     left: 5%;
-    text-align: CENTER;
+    text-align: center;
 }
 .modal-content iframe{
     width: 100%;
     height: 100%;
+    text-align: center;
     
 }
 span.close{
@@ -87,7 +88,7 @@ padding:30px 0;
   z-index: -1;
 }
 
-    #video-overlay {
+    .video-overlay {
       width: 90px;
       height: 130px;
       background-color: #988969;
@@ -96,22 +97,43 @@ padding:30px 0;
 
 	 opacity: 0;
     }
+	.video-overlay-sm{
+	 width: 84px;
+      height: 80px;
+     
+	}
+	
 
 </style>
 </head>
 
     <body>
 <div class="overlay"></div>	
-<div id="videoEle" class="container1">
-    
+
+<div id="videoEle" class="container1" style="background-image: url('imgpsh_fullsize_anim.jfif');    background-repeat: no-repeat;">
+
     
 <video playsinline autoplay muted loop id="video-div">
   <source src="video.mp4" type="video/mp4" >
+  
 </video>
     
     
 </div>
-<div id="video-overlay" style="position:absolute;"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
+<div id="video-overlay13" style="position:absolute;" class="video-overlay"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
+<div id="video-overlay12" style="position:absolute;" class="video-overlay video-overlay-sm"><img src="play.png" style="padding-top:0px;margin-left:-10px;"></div>
+<div id="video-overlay11" style="position:absolute;" class="video-overlay"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
+<div id="video-overlay10" style="position:absolute;" class="video-overlay"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
+<div id="video-overlay9" style="position:absolute;" class="video-overlay video-overlay-sm"><img src="play.png" style="padding-top:0px;margin-left:-10px;"></div>
+<div id="video-overlay8" style="position:absolute;" class="video-overlay video-overlay-sm"><img src="play.png" style="padding-top:0px;margin-left:-10px;"></div>
+<div id="video-overlay7" style="position:absolute;" class="video-overlay"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
+<div id="video-overlay6" style="position:absolute;" class="video-overlay"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
+<div id="video-overlay5" style="position:absolute;" class="video-overlay"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
+<div id="video-overlay4" style="position:absolute;" class="video-overlay"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
+<div id="video-overlay3" style="position:absolute;" class="video-overlay"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
+<div id="video-overlay2" style="position:absolute;" class="video-overlay video-overlay-sm"><img src="play.png" style="padding-top:0;margin-left:-10px;"></div>
+<div id="video-overlay1" style="position:absolute;" class="video-overlay"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
+<div id="video-overlay" style="position:absolute;" class="video-overlay"><img src="play.png" style="padding-top:15px;margin-left:-10px;"></div>
  
 
 <div id="videoModal" class="modal">
